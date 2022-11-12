@@ -1,0 +1,165 @@
+2022-11-12 05:11:22.713  INFO 2887 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 11.0.11 on b1952327f3d4 with PID 2887 (/home/runner/Reddiscordbot/botdata/cogs/Audio/Lavalink.jar started by runner in /home/runner/Reddiscordbot/botdata/cogs/Audio)
+2022-11-12 05:11:22.726  INFO 2887 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 05:11:24.524  INFO 2887 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.744 seconds (JVM running for 3.791)
+2022-11-12 05:11:24.529  INFO 2887 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2022-11-12 05:11:24.633  INFO 2887 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.5-rc3
+	Build:          1350
+	Build time:     11.08.2022 18:37:19 UTC
+	Branch          HEAD
+	Commit:         1b8e84f
+	Commit time:    11.08.2022 18:22:22 UTC
+	JVM:            11.0.11
+	Lavaplayer      1.3.98.2-original
+
+2022-11-12 05:11:24.641  INFO 2887 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 05:11:25.579  WARN 2887 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-11-12 05:11:25.608  INFO 2887 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-11-12 05:11:25.609  INFO 2887 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 961 ms
+2022-11-12 05:11:25.709  WARN 2887 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2022-11-12 05:11:26.228  INFO 2887 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2022-11-12 05:11:26.482  INFO 2887 --- [main] lavalink.server.config.KoeConfiguration  : OS: LINUX, Arch: X86_64
+2022-11-12 05:11:26.483  INFO 2887 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2022-11-12 05:11:26.488  INFO 2887 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2022-11-12 05:11:26.529  INFO 2887 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2022-11-12 05:11:27.182  INFO 2887 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
+2022-11-12 05:11:27.223  INFO 2887 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
+2022-11-12 05:11:27.240  INFO 2887 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
+2022-11-12 05:11:27.372  INFO 2887 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2022-11-12 05:11:27.446  INFO 2887 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 2333 (http)
+2022-11-12 05:11:27.459  INFO 2887 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.922 seconds (JVM running for 6.725)
+2022-11-12 05:11:27.466  INFO 2887 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2022-11-12 05:11:27.538  INFO 2887 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-12 05:11:27.540  INFO 2887 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-12 05:11:27.542  INFO 2887 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-11-12 05:11:27.601  INFO 2887 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:46904
+2022-11-12 05:11:27.720  INFO 2887 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Red-Lavalink/0.9.4
+2022-11-12 05:11:27.792  INFO 2887 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "Red-Core-Audio-765267492284661801-Fomo", "timeout": 60}
+2022-11-12 05:15:40.272  INFO 2887 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": null}
+2022-11-12 05:15:40.282  INFO 2887 --- [SpringApplicationShutdownHook] io.undertow                              : stopping server: Undertow - 2.2.16.Final
+2022-11-12 05:15:40.288  INFO 2887 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:46904 -- CloseStatus[code=1000, reason=]
+2022-11-12 05:15:40.289  INFO 2887 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-11-12 05:15:40.291  INFO 2887 --- [SpringApplicationShutdownHook] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-12 05:15:40.301 ERROR 2887 --- [XNIO-1 I/O-2] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.lang.RuntimeException: java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at io.undertow.websockets.jsr.ServerWebSocketContainer.invokeEndpointMethod(ServerWebSocketContainer.java:612) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.jsr.ServerWebSocketContainer.invokeEndpointMethod(ServerWebSocketContainer.java:600) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.jsr.FrameHandler.onFullCloseMessage(FrameHandler.java:100) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.core.AbstractReceiveListener$1.complete(AbstractReceiveListener.java:136) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.core.AbstractReceiveListener$1.complete(AbstractReceiveListener.java:124) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.core.BufferedBinaryMessage.read(BufferedBinaryMessage.java:95) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.core.AbstractReceiveListener.readBufferedBinary(AbstractReceiveListener.java:124) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.core.AbstractReceiveListener.bufferFullMessage(AbstractReceiveListener.java:98) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.core.AbstractReceiveListener.onClose(AbstractReceiveListener.java:62) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.core.AbstractReceiveListener.handleEvent(AbstractReceiveListener.java:50) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.core.AbstractReceiveListener.handleEvent(AbstractReceiveListener.java:33) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameReadListener.handleEvent(AbstractFramedChannel.java:955) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameReadListener.handleEvent(AbstractFramedChannel.java:935) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:591) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+Caused by: java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.websockets.jsr.UndertowSession.close0(UndertowSession.java:361) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.jsr.UndertowSession.closeInternal(UndertowSession.java:241) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.jsr.FrameHandler$1.run(FrameHandler.java:107) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.jsr.ServerWebSocketContainer$1.call(ServerWebSocketContainer.java:170) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.jsr.ServerWebSocketContainer$1.call(ServerWebSocketContainer.java:167) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43) ~[undertow-servlet-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.jsr.ServerWebSocketContainer.invokeEndpointMethod(ServerWebSocketContainer.java:610) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	... 17 common frames omitted
+
+2022-11-12 05:15:40.303 ERROR 2887 --- [XNIO-1 I/O-2] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1081) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:994) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.terminated(ReadReadyHandler.java:71) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.readTerminated(NioSocketConduit.java:332) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.terminateReads(NioSocketConduit.java:325) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.terminateReads(IdleTimeoutConduit.java:236) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.conduits.ConduitStreamSourceChannel.close(ConduitStreamSourceChannel.java:168) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:152) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.forceTermination(ReadReadyHandler.java:58) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:106) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:507) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+
+2022-11-12 05:15:40.314  INFO 2887 --- [SpringApplicationShutdownHook] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2022-11-12 05:16:12.109  INFO 3387 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 11.0.11 on b1952327f3d4 with PID 3387 (/home/runner/Reddiscordbot/botdata/cogs/Audio/Lavalink.jar started by runner in /home/runner/Reddiscordbot/botdata/cogs/Audio)
+2022-11-12 05:16:12.113  INFO 3387 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 05:16:14.279  INFO 3387 --- [main] lavalink.server.Launcher                 : Started Launcher in 3.378 seconds (JVM running for 4.213)
+2022-11-12 05:16:14.287  INFO 3387 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2022-11-12 05:16:14.386  INFO 3387 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.5-rc3
+	Build:          1350
+	Build time:     11.08.2022 18:37:19 UTC
+	Branch          HEAD
+	Commit:         1b8e84f
+	Commit time:    11.08.2022 18:22:22 UTC
+	JVM:            11.0.11
+	Lavaplayer      1.3.98.2-original
+
+2022-11-12 05:16:14.401  INFO 3387 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 05:16:15.554  WARN 3387 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-11-12 05:16:15.619  INFO 3387 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-11-12 05:16:15.620  INFO 3387 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1209 ms
+2022-11-12 05:16:15.746  WARN 3387 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2022-11-12 05:16:16.298  INFO 3387 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2022-11-12 05:16:16.567  INFO 3387 --- [main] lavalink.server.config.KoeConfiguration  : OS: LINUX, Arch: X86_64
+2022-11-12 05:16:16.568  INFO 3387 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2022-11-12 05:16:16.573  INFO 3387 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2022-11-12 05:16:16.579  INFO 3387 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2022-11-12 05:16:17.128  INFO 3387 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
+2022-11-12 05:16:17.142  INFO 3387 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
+2022-11-12 05:16:17.162  INFO 3387 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
+2022-11-12 05:16:17.282  INFO 3387 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2022-11-12 05:16:17.358  INFO 3387 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 2333 (http)
+2022-11-12 05:16:17.368  INFO 3387 --- [main] lavalink.server.Launcher                 : Started Launcher in 3.072 seconds (JVM running for 7.302)
+2022-11-12 05:16:17.369  INFO 3387 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2022-11-12 05:16:17.441  INFO 3387 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-12 05:16:17.442  INFO 3387 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-12 05:16:17.445  INFO 3387 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-11-12 05:16:17.494  INFO 3387 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:54754
+2022-11-12 05:16:17.612  INFO 3387 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Red-Lavalink/0.9.4
+2022-11-12 05:16:17.632  INFO 3387 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "Red-Core-Audio-765267492284661801-Fomo", "timeout": 60}
+2022-11-12 05:17:45.600  INFO 3387 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "volume", "guildId": "986989426737565736", "volume": 60}
+2022-11-12 05:17:45.628  INFO 3387 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://youtu.be/RTtc2pM1boE?list=RDRTtc2pM1boE"
+2022-11-12 05:17:45.761  INFO 3387 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "986989426737565736", "sessionId": "66a09c7ec70dfcd814ab5109fe5c0692", "event": {"token": "412daffd786f7993", "guild_id": "986989426737565736", "endpoint": "bucharest6542.discord.media:443"}}
+2022-11-12 05:17:45.766  WARN 3387 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : YouTube auth tokens can't be retrieved because email and password is not set in YoutubeAudioSourceManager, age restricted videos will throw exceptions.
+2022-11-12 05:17:46.968  INFO 3387 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Mix - Feliz Navidad- Jose Feliciano lyrics [HQ]
+2022-11-12 05:17:47.128  INFO 3387 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "986989426737565736", "track": "QAAAiQIAKUZlbGl6IE5hdmlkYWQtIEpvc2UgRmVsaWNpYW5vIGx5cmljcyBbSFFdAAZMZW9uIEIAAAAAAALmMAALUlR0YzJwTTFib0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1SVHRjMnBNMWJvRQAHeW91dHViZQAAAAAAAAAA", "noReplace": false, "startTime": "0", "pause": false}
+2022-11-12 05:17:47.609 ERROR 3387 --- [lava-daemon-pool-playback-1-thread-1] .s.d.l.s.y.YoutubeSignatureCipherManager : Problematic YouTube player script /s/player/c4225c42/player_ias.vflset/en_US/base.js detected (issue detected with script: no n function match). Dumped to /tmp/lavaplayer-yt-player-script4253520174213776266.js
+2022-11-12 05:17:48.301  INFO 3387 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$812/0x000000084073bc40@329119dc
+2022-11-12 05:17:48.302  INFO 3387 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2022-11-12 05:17:48.342  INFO 3387 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2022-11-12 05:20:31.252  INFO 3387 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "986989426737565736"}
+2022-11-12 05:21:14.872  INFO 3387 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://youtu.be/Zx4Hjq6KwO0"
+2022-11-12 05:21:14.983  INFO 3387 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Keane - Everybody's Changing (Alternate Version)
+2022-11-12 05:21:14.999  INFO 3387 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "986989426737565736", "track": "QAAAkwIAMEtlYW5lIC0gRXZlcnlib2R5J3MgQ2hhbmdpbmcgKEFsdGVybmF0ZSBWZXJzaW9uKQAJS2VhbmVWRVZPAAAAAAADT6gAC1p4NEhqcTZLd08wAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Wng0SGpxNkt3TzAAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0", "pause": false}
+2022-11-12 05:24:52.421  INFO 3387 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "986989426737565736"}
+2022-11-12 05:25:50.194  INFO 3387 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "986989426737565736", "track": "QAAAkwIAMEtlYW5lIC0gRXZlcnlib2R5J3MgQ2hhbmdpbmcgKEFsdGVybmF0ZSBWZXJzaW9uKQAJS2VhbmVWRVZPAAAAAAADT6gAC1p4NEhqcTZLd08wAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Wng0SGpxNkt3TzAAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0", "pause": false}
+2022-11-12 05:29:27.020  INFO 3387 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "986989426737565736"}

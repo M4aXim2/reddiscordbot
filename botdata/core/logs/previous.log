@@ -1,0 +1,17 @@
+[2022-11-12 05:11:16] [INFO] red: Loading packages...
+[2022-11-12 05:11:16] [INFO] red: Loaded packages: downloader, customcom, webthing, admin, wowtools, audio, mod
+[2022-11-12 05:11:17] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-12 05:11:20] [INFO] red.Audio.manager: Internal Lavalink server started. PID: 2887
+[2022-11-12 05:11:27] [INFO] red.Audio.manager: Internal Lavalink server is ready to receive requests.
+[2022-11-12 05:11:27] [INFO] red.Audio.WS.LLNode: Lavalink WS connecting to ws://localhost:2333 with headers {'Authorization': 'youshallnotpass', 'User-Id': '765267492284661801', 'Num-Shards': '1', 'Client-Name': 'Red-Lavalink/0.9.4', 'Resume-Key': 'Red-Core-Audio-765267492284661801-Fomo'}
+[2022-11-12 05:15:16] [INFO] red.vex.uptimeresponder: Web server for UptimeResponder pings has started on port 8710.
+[2022-11-12 05:15:40] [INFO] red.main: Signals.SIGTERM received. Quitting...
+[2022-11-12 05:15:40] [INFO] red.main: Shutting down with exit code: ExitCodes.SHUTDOWN
+[2022-11-12 05:15:40] [INFO] red.main: Signals.SIGHUP received. Quitting...
+[2022-11-12 05:15:40] [INFO] red.Audio.manager: Shutting down internal Lavalink server
+[2022-11-12 05:15:40] [INFO] red.vex.uptimeresponder: Web server for UptimeResponder pings has been stopped due to cog unload.
+[2022-11-12 05:15:40] [INFO] red.Audio.WS.LLNode: [NODE] | Listener closing: None
+[2022-11-12 05:15:40] [WARNING] red.Audio.WS.LLNode: [NODE] | <Node: state=DISCONNECTING, host=localhost, port=2333, password=***************, resume_key=Red-Core-Audio-765267492284661801-Fomo, shards=1, user=765267492284661801, stats=<NodeStats: uptime=246290, players=0, playing_players=0, memory_free=81350160, memory_used=41333232, cpu_cores=4, system_load=0.6174199459034988, lavalink_load=0.0016042201406713558>> - WS True SHUTDOWN True.
+[2022-11-12 05:15:40] [INFO] red.Audio.WS.LLNode: [NODE] | Shutting down Lavalink WS.
+[2022-11-12 05:15:40] [INFO] red.main: Please wait, cleaning up a bit more
+[2022-11-12 05:15:40] [INFO] red.Audio.WS.LLNode: Shutdown Lavalink WS.

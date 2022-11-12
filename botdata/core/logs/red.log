@@ -1,0 +1,418 @@
+[2022-11-11 10:07:05] [INFO] red: Begin updating guild configs to support multiple mod/admin roles
+[2022-11-11 10:07:05] [INFO] red: Done updating guild configs to support multiple mod/admin roles
+[2022-11-11 10:07:05] [INFO] red: Moving shared API tokens to a custom group
+[2022-11-11 10:07:05] [CRITICAL] red.main: The main bot task didn't handle an exception and has crashed
+Traceback (most recent call last):
+  File "/home/runner/redenv/lib/python3.8/site-packages/redbot/__main__.py", line 477, in red_exception_handler
+    red_task.result()
+  File "/home/runner/redenv/lib/python3.8/site-packages/redbot/__main__.py", line 389, in run_bot
+    await red.start(token, bot=True, cli_flags=cli_flags)
+  File "/home/runner/redenv/lib/python3.8/site-packages/redbot/core/bot.py", line 1202, in start
+    return await super().start(*args, **kwargs)
+  File "/home/runner/redenv/lib/python3.8/site-packages/discord/client.py", line 665, in start
+    await self.login(*args, bot=bot)
+  File "/home/runner/redenv/lib/python3.8/site-packages/discord/client.py", line 511, in login
+    await self.http.static_login(token.strip(), bot=bot)
+  File "/home/runner/redenv/lib/python3.8/site-packages/discord/http.py", line 300, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+  File "/home/runner/redenv/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | discord.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 7686380afaaf639c &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2022-11-11 10:07:05 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (discord.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">7686380afaaf639c</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">146.148.44.7</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+<script>(function(){var js = "window['__CF$cv$params']={r:'7686380afaaf639c',m:'_Pqx_iteCLnXSjVI7lKzbeHIrRCODpoLEkWA6N8qEXs-1668161225-0-Af4tm53lqTyFJVdFNqsM2jyyH0n3LYpxOoLvpQ0/z1A3qhBHjSr2mG1g1XxjvVIC7uuaf2fyGZlnR1++1Ah/l0YLnPGD/kqNN5ToAnmy4TowprmdrlGwxDPzxSGDfr3b0GESlwH6bnoRKaGMR4n9PeU=',s:[0x5c4f246ed6,0x013bb923b4],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
+
+[2022-11-11 10:07:06] [WARNING] red.main: Attempting to die as gracefully as possible...
+[2022-11-11 10:07:06] [INFO] red.main: Shutting down from unhandled exception
+[2022-11-11 10:09:12] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-11 10:12:53] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-11 10:13:53] [INFO] red.cogs.Audio.cog.Utilities.playlists: Curated playlist has been updated.
+[2022-11-11 10:13:53] [INFO] red.Audio.manager: Downloading Lavalink.jar...
+[2022-11-11 10:13:58] [INFO] red.Audio.manager: Successfully downloaded Lavalink.jar (64,347,588 bytes written)
+[2022-11-11 10:14:00] [INFO] red.Audio.manager: Internal Lavalink server started. PID: 418
+[2022-11-11 10:14:23] [INFO] red.Audio.manager: Internal Lavalink server is ready to receive requests.
+[2022-11-11 10:14:23] [INFO] red.Audio.WS.LLNode: Lavalink WS connecting to ws://localhost:2333 with headers {'Authorization': 'youshallnotpass', 'User-Id': '765267492284661801', 'Num-Shards': '1', 'Client-Name': 'Red-Lavalink/0.9.4', 'Resume-Key': 'Red-Core-Audio-765267492284661801-Fomo'}
+[2022-11-11 10:17:30] [INFO] red.main: Signals.SIGTERM received. Quitting...
+[2022-11-11 10:17:30] [INFO] red.main: Shutting down with exit code: ExitCodes.SHUTDOWN
+[2022-11-11 10:17:30] [INFO] red.main: Signals.SIGHUP received. Quitting...
+[2022-11-11 10:17:30] [INFO] red.Audio.manager: Shutting down internal Lavalink server
+[2022-11-11 10:17:30] [INFO] red.Audio.WS.LLNode: [NODE] | Listener closing: None
+[2022-11-11 10:17:30] [WARNING] red.Audio.WS.LLNode: [NODE] | <Node: state=DISCONNECTING, host=localhost, port=2333, password=***************, resume_key=Red-Core-Audio-765267492284661801-Fomo, shards=1, user=765267492284661801, stats=<NodeStats: uptime=202225, players=1, playing_players=1, memory_free=28809456, memory_used=44447504, cpu_cores=1, system_load=0.2534963497229308, lavalink_load=0.002874952084131931>> - WS True SHUTDOWN True.
+[2022-11-11 10:17:30] [INFO] red.main: Please wait, cleaning up a bit more
+[2022-11-11 10:17:30] [INFO] red.Audio.WS.LLNode: [NODE] | Shutting down Lavalink WS.
+[2022-11-11 10:17:30] [INFO] red.Audio.WS.LLNode: Shutdown Lavalink WS.
+[2022-11-11 10:17:34] [INFO] red: Loading packages...
+[2022-11-11 10:17:35] [INFO] red: Loaded packages: audio
+[2022-11-11 10:17:35] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-11 10:17:40] [INFO] red.Audio.manager: Internal Lavalink server started. PID: 685
+[2022-11-11 10:18:03] [INFO] red.Audio.manager: Internal Lavalink server is ready to receive requests.
+[2022-11-11 10:18:03] [INFO] red.Audio.WS.LLNode: Lavalink WS connecting to ws://localhost:2333 with headers {'Authorization': 'youshallnotpass', 'User-Id': '765267492284661801', 'Num-Shards': '1', 'Client-Name': 'Red-Lavalink/0.9.4', 'Resume-Key': 'Red-Core-Audio-765267492284661801-Fomo'}
+[2022-11-11 11:19:15] [INFO] red.main: Signals.SIGTERM received. Quitting...
+[2022-11-11 11:19:15] [INFO] red.main: Shutting down with exit code: ExitCodes.SHUTDOWN
+[2022-11-11 11:19:15] [INFO] red.main: Signals.SIGHUP received. Quitting...
+[2022-11-11 11:19:15] [INFO] red.Audio.manager: Shutting down internal Lavalink server
+[2022-11-11 11:19:15] [INFO] red.Audio.WS.LLNode: [NODE] | Listener closing: None
+[2022-11-11 11:19:15] [WARNING] red.Audio.WS.LLNode: [NODE] | <Node: state=DISCONNECTING, host=localhost, port=2333, password=***************, resume_key=Red-Core-Audio-765267492284661801-Fomo, shards=1, user=765267492284661801, stats=<NodeStats: uptime=3681906, players=1, playing_players=0, memory_free=31341176, memory_used=35460488, cpu_cores=1, system_load=0.14589453983591216, lavalink_load=0.0010625>> - WS True SHUTDOWN True.
+[2022-11-11 11:19:15] [INFO] red.main: Please wait, cleaning up a bit more
+[2022-11-11 11:19:15] [INFO] red.Audio.WS.LLNode: [NODE] | Shutting down Lavalink WS.
+[2022-11-11 11:19:15] [INFO] red.Audio.WS.LLNode: Shutdown Lavalink WS.
+[2022-11-11 11:28:11] [INFO] red: Loading packages...
+[2022-11-11 11:28:12] [INFO] red: Loaded packages: audio, downloader, customcom, webthing
+[2022-11-11 11:28:13] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-11 11:28:18] [INFO] red.Audio.manager: Internal Lavalink server started. PID: 3849
+[2022-11-11 11:28:28] [INFO] red.Audio.manager: Shutting down internal Lavalink server
+[2022-11-11 11:28:28] [ERROR] red.cogs.Audio.cog.Tasks.lavalink: Invalid machine architecture, cannot run Lavalink.
+Traceback (most recent call last):
+  File "/home/runner/redenv/lib/python3.8/site-packages/redbot/cogs/audio/core/tasks/lavalink.py", line 49, in lavalink_attempt_connect
+    await self.player_manager.start(java_exec)
+  File "/home/runner/redenv/lib/python3.8/site-packages/redbot/cogs/audio/manager.py", line 164, in start
+    await asyncio.wait_for(self._wait_for_launcher(), timeout=120)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 481, in wait_for
+    await waiter
+asyncio.exceptions.CancelledError
+[2022-11-11 11:28:29] [INFO] red.main: Shutting down with exit code: ExitCodes.RESTART
+[2022-11-11 11:28:29] [INFO] red.main: Please wait, cleaning up a bit more
+[2022-11-11 11:28:48] [INFO] red: Loading packages...
+[2022-11-11 11:28:49] [INFO] red: Loaded packages: audio, downloader, customcom, webthing
+[2022-11-11 11:28:50] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-11 11:28:54] [INFO] red.Audio.manager: Internal Lavalink server started. PID: 3982
+[2022-11-11 11:29:19] [INFO] red.Audio.manager: Internal Lavalink server is ready to receive requests.
+[2022-11-11 11:29:19] [INFO] red.Audio.WS.LLNode: Lavalink WS connecting to ws://localhost:2333 with headers {'Authorization': 'youshallnotpass', 'User-Id': '765267492284661801', 'Num-Shards': '1', 'Client-Name': 'Red-Lavalink/0.9.4', 'Resume-Key': 'Red-Core-Audio-765267492284661801-Fomo'}
+[2022-11-11 11:35:06] [INFO] red.Audio.manager: Shutting down internal Lavalink server
+[2022-11-11 11:35:06] [INFO] red.Audio.WS.LLNode: [NODE] | Listener closing: None
+[2022-11-11 11:35:06] [WARNING] red.Audio.WS.LLNode: [NODE] | <Node: state=DISCONNECTING, host=localhost, port=2333, password=***************, resume_key=Red-Core-Audio-765267492284661801-Fomo, shards=1, user=765267492284661801, stats=<NodeStats: uptime=323303, players=0, playing_players=0, memory_free=5275392, memory_used=25202944, cpu_cores=1, system_load=0.27208379900510593, lavalink_load=0.0007499875002083299>> - WS True SHUTDOWN True.
+[2022-11-11 11:35:06] [INFO] red.Audio.WS.LLNode: [NODE] | Shutting down Lavalink WS.
+[2022-11-11 11:35:06] [INFO] red.Audio.WS.LLNode: Shutdown Lavalink WS.
+[2022-11-11 11:35:06] [INFO] red.main: Shutting down with exit code: ExitCodes.RESTART
+[2022-11-11 11:35:06] [INFO] red.main: Please wait, cleaning up a bit more
+[2022-11-11 11:36:21] [INFO] red: Loading packages...
+[2022-11-11 11:36:24] [INFO] red: Loaded packages: audio, downloader, customcom, webthing, jishaku
+[2022-11-11 11:36:25] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-11 11:36:26] [INFO] red.main: Signals.SIGHUP received. Quitting...
+[2022-11-11 11:36:26] [INFO] red.main: Shutting down with exit code: ExitCodes.SHUTDOWN
+[2022-11-11 11:36:28] [INFO] red: Loading packages...
+[2022-11-11 11:36:30] [INFO] red: Loaded packages: audio, downloader, customcom, webthing, jishaku
+[2022-11-11 11:36:30] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-11 11:36:35] [INFO] red.Audio.manager: Internal Lavalink server started. PID: 4392
+[2022-11-11 11:37:00] [INFO] red.Audio.manager: Internal Lavalink server is ready to receive requests.
+[2022-11-11 11:37:00] [INFO] red.Audio.WS.LLNode: Lavalink WS connecting to ws://localhost:2333 with headers {'Authorization': 'youshallnotpass', 'User-Id': '765267492284661801', 'Num-Shards': '1', 'Client-Name': 'Red-Lavalink/0.9.4', 'Resume-Key': 'Red-Core-Audio-765267492284661801-Fomo'}
+[2022-11-11 11:51:52] [INFO] red.Audio.manager: Shutting down internal Lavalink server
+[2022-11-11 11:51:52] [WARNING] red.Audio.WS.LLNode: [NODE] | <Node: state=DISCONNECTING, host=localhost, port=2333, password=***************, resume_key=Red-Core-Audio-765267492284661801-Fomo, shards=1, user=765267492284661801, stats=<NodeStats: uptime=863594, players=1, playing_players=0, memory_free=41715360, memory_used=42101088, cpu_cores=1, system_load=0.39665842937433027, lavalink_load=0.0011250187503125053>> - WS True SHUTDOWN True.
+[2022-11-11 11:51:52] [INFO] red.Audio.WS.LLNode: [NODE] | Shutting down Lavalink WS.
+[2022-11-11 11:51:52] [INFO] red.main: Shutting down with exit code: ExitCodes.RESTART
+[2022-11-11 11:51:52] [INFO] red.main: Please wait, cleaning up a bit more
+[2022-11-11 11:53:31] [INFO] red: Loading packages...
+[2022-11-11 11:53:34] [INFO] red: Loaded packages: audio, downloader, customcom, webthing, jishaku
+[2022-11-11 11:53:35] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-11 11:53:42] [INFO] red.Audio.manager: Internal Lavalink server started. PID: 4745
+[2022-11-11 11:54:26] [INFO] red.Audio.manager: Internal Lavalink server is ready to receive requests.
+[2022-11-11 11:54:26] [INFO] red.Audio.WS.LLNode: Lavalink WS connecting to ws://localhost:2333 with headers {'Authorization': 'youshallnotpass', 'User-Id': '765267492284661801', 'Num-Shards': '1', 'Client-Name': 'Red-Lavalink/0.9.4', 'Resume-Key': 'Red-Core-Audio-765267492284661801-Fomo'}
+[2022-11-11 11:58:54] [ERROR] red: Exception in command 'raiderio profile'
+Traceback (most recent call last):
+  File "/home/runner/redenv/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/wowtools/raiderio.py", line 74, in raiderio_profile
+    profile_data = await rio.get_character_profile(
+  File "/home/runner/Reddiscordbot/botdata/cogs/Downloader/lib/raiderio_async/raiderio_async.py", line 45, in get_character_profile
+    return await self._get_resource(resource, query_params)
+  File "/home/runner/Reddiscordbot/botdata/cogs/Downloader/lib/raiderio_async/raiderio_async.py", line 19, in _get_resource
+    async with self.session.request("GET", resource_url, params=params) as response:
+  File "/home/runner/redenv/lib/python3.8/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/home/runner/redenv/lib/python3.8/site-packages/aiohttp/client.py", line 492, in _request
+    req = self._request_class(
+  File "/home/runner/redenv/lib/python3.8/site-packages/aiohttp/client_reqrep.py", line 283, in __init__
+    url2 = url.with_query(params)
+  File "/home/runner/redenv/lib/python3.8/site-packages/yarl/_url.py", line 983, in with_query
+    new_query = self._get_str_query(*args, **kwargs)
+  File "/home/runner/redenv/lib/python3.8/site-packages/yarl/_url.py", line 944, in _get_str_query
+    query = "&".join(self._query_seq_pairs(quoter, query.items()))
+  File "/home/runner/redenv/lib/python3.8/site-packages/yarl/_url.py", line 907, in _query_seq_pairs
+    yield quoter(key) + "=" + quoter(cls._query_var(val))
+  File "/home/runner/redenv/lib/python3.8/site-packages/yarl/_url.py", line 922, in _query_var
+    raise TypeError(
+TypeError: Invalid variable type: value should be str, int or float, got None of type <class 'NoneType'>
+[2022-11-11 12:14:02] [ERROR] red: Contact failed to M4aXim#5591(405356071989936129)
+Traceback (most recent call last):
+  File "/home/runner/redenv/lib/python3.8/site-packages/redbot/core/core_commands.py", line 3435, in contact
+    await destination.send(embed=e)
+  File "/home/runner/redenv/lib/python3.8/site-packages/discord/abc.py", line 1065, in send
+    data = await state.http.send_message(channel.id, content, tts=tts, embed=embed,
+  File "/home/runner/redenv/lib/python3.8/site-packages/discord/http.py", line 248, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50007): Cannot send messages to this user
+[2022-11-11 12:25:51] [INFO] red.admin: Leaving guild 'Notebot support server' (918456466912993292) due to serverlock.
+[2022-11-11 13:07:57] [INFO] red: Loading packages...
+[2022-11-11 13:07:57] [ERROR] red: Failed to load package jishaku
+Traceback (most recent call last):
+  File "/home/runner/redenv/lib/python3.8/site-packages/redbot/core/bot.py", line 1180, in pre_flight
+    await asyncio.wait_for(self.load_extension(spec), 30)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/home/runner/redenv/lib/python3.8/site-packages/redbot/core/bot.py", line 1554, in load_extension
+    lib = spec.loader.load_module()
+  File "<frozen importlib._bootstrap_external>", line 522, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1022, in load_module
+  File "<frozen importlib._bootstrap_external>", line 847, in load_module
+  File "<frozen importlib._bootstrap>", line 265, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/__init__.py", line 15, in <module>
+    from jishaku.cog import *  # noqa: F401
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/cog.py", line 19, in <module>
+    from jishaku.features.management import ManagementFeature
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/features/management.py", line 25, in <module>
+    from jishaku.modules import ExtensionConverter
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/modules.py", line 18, in <module>
+    from braceexpand import UnbalancedBracesError, braceexpand
+ModuleNotFoundError: No module named 'braceexpand'
+[2022-11-11 13:07:57] [INFO] red: Loaded packages: permissions, audio, downloader, customcom, webthing, reports, admin
+[2022-11-11 13:07:58] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-11 13:08:01] [INFO] red.Audio.manager: Internal Lavalink server started. PID: 807
+[2022-11-11 13:08:08] [INFO] red.Audio.manager: Internal Lavalink server is ready to receive requests.
+[2022-11-11 13:08:08] [INFO] red.Audio.WS.LLNode: Lavalink WS connecting to ws://localhost:2333 with headers {'Authorization': 'youshallnotpass', 'User-Id': '765267492284661801', 'Num-Shards': '1', 'Client-Name': 'Red-Lavalink/0.9.4', 'Resume-Key': 'Red-Core-Audio-765267492284661801-Fomo'}
+[2022-11-11 13:08:36] [INFO] red.main: Signals.SIGINT received. Quitting...
+[2022-11-11 13:08:36] [INFO] red.main: Shutting down with exit code: ExitCodes.SHUTDOWN
+[2022-11-11 13:08:36] [INFO] red.Audio.manager: Shutting down internal Lavalink server
+[2022-11-11 13:08:36] [INFO] red.Audio.WS.LLNode: [NODE] | Listener closing: None
+[2022-11-11 13:08:36] [WARNING] red.Audio.WS.LLNode: [NODE] | <Node: state=DISCONNECTING, host=localhost, port=2333, password=***************, resume_key=Red-Core-Audio-765267492284661801-Fomo, shards=1, user=765267492284661801, stats=<NodeStats: uptime=6452, players=0, playing_players=0, memory_free=53329832, memory_used=85082200, cpu_cores=4, system_load=0, lavalink_load=0.13139204545454544>> - WS True SHUTDOWN True.
+[2022-11-11 13:08:36] [INFO] red.Audio.WS.LLNode: [NODE] | Shutting down Lavalink WS.
+[2022-11-11 13:08:36] [INFO] red.Audio.WS.LLNode: Shutdown Lavalink WS.
+[2022-11-11 13:08:36] [INFO] red.main: Please wait, cleaning up a bit more
+[2022-11-11 13:08:43] [INFO] red: Loading packages...
+[2022-11-11 13:08:43] [INFO] red: Loaded packages: permissions, audio, downloader, customcom, webthing, reports, admin
+[2022-11-11 13:08:44] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-11 13:08:47] [INFO] red.Audio.manager: Internal Lavalink server started. PID: 1034
+[2022-11-11 13:08:53] [INFO] red.Audio.manager: Internal Lavalink server is ready to receive requests.
+[2022-11-11 13:08:53] [INFO] red.Audio.WS.LLNode: Lavalink WS connecting to ws://localhost:2333 with headers {'Authorization': 'youshallnotpass', 'User-Id': '765267492284661801', 'Num-Shards': '1', 'Client-Name': 'Red-Lavalink/0.9.4', 'Resume-Key': 'Red-Core-Audio-765267492284661801-Fomo'}
+[2022-11-11 13:13:36] [WARNING] discord.http: We are being rate limited. Retrying in 0.13 seconds. Handled under the bucket "986989426737565738:None:/channels/{channel_id}/messages/{message_id}/reactions/{emoji}/@me"
+[2022-11-11 13:49:59] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "/home/runner/redenv/lib/python3.8/site-packages/redbot/core/core_commands.py", line 172, in _load
+    await bot.load_extension(spec)
+  File "/home/runner/redenv/lib/python3.8/site-packages/redbot/core/bot.py", line 1554, in load_extension
+    lib = spec.loader.load_module()
+  File "<frozen importlib._bootstrap_external>", line 522, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1022, in load_module
+  File "<frozen importlib._bootstrap_external>", line 847, in load_module
+  File "<frozen importlib._bootstrap>", line 265, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/__init__.py", line 15, in <module>
+    from jishaku.cog import *  # noqa: F401
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/cog.py", line 19, in <module>
+    from jishaku.features.management import ManagementFeature
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/features/management.py", line 25, in <module>
+    from jishaku.modules import ExtensionConverter
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/modules.py", line 18, in <module>
+    from braceexpand import UnbalancedBracesError, braceexpand
+ModuleNotFoundError: No module named 'braceexpand'
+[2022-11-11 13:50:10] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "/home/runner/redenv/lib/python3.8/site-packages/redbot/core/core_commands.py", line 172, in _load
+    await bot.load_extension(spec)
+  File "/home/runner/redenv/lib/python3.8/site-packages/redbot/core/bot.py", line 1554, in load_extension
+    lib = spec.loader.load_module()
+  File "<frozen importlib._bootstrap_external>", line 522, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1022, in load_module
+  File "<frozen importlib._bootstrap_external>", line 847, in load_module
+  File "<frozen importlib._bootstrap>", line 265, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/__init__.py", line 15, in <module>
+    from jishaku.cog import *  # noqa: F401
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/cog.py", line 19, in <module>
+    from jishaku.features.management import ManagementFeature
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/features/management.py", line 25, in <module>
+    from jishaku.modules import ExtensionConverter
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/modules.py", line 18, in <module>
+    from braceexpand import UnbalancedBracesError, braceexpand
+ModuleNotFoundError: No module named 'braceexpand'
+[2022-11-11 13:50:19] [INFO] red.main: Signals.SIGINT received. Quitting...
+[2022-11-11 13:50:19] [INFO] red.main: Shutting down with exit code: ExitCodes.SHUTDOWN
+[2022-11-11 13:50:19] [INFO] red.Audio.manager: Shutting down internal Lavalink server
+[2022-11-11 13:50:19] [INFO] red.Audio.WS.LLNode: [NODE] | Listener closing: None
+[2022-11-11 13:50:19] [WARNING] red.Audio.WS.LLNode: [NODE] | <Node: state=DISCONNECTING, host=localhost, port=2333, password=***************, resume_key=Red-Core-Audio-765267492284661801-Fomo, shards=1, user=765267492284661801, stats=<NodeStats: uptime=2465672, players=1, playing_players=0, memory_free=80453480, memory_used=85221528, cpu_cores=4, system_load=0.5079560184150539, lavalink_load=0.0027291666666666666>> - WS True SHUTDOWN True.
+[2022-11-11 13:50:19] [INFO] red.Audio.WS.LLNode: [NODE] | Shutting down Lavalink WS.
+[2022-11-11 13:50:19] [INFO] red.Audio.WS.LLNode: Shutdown Lavalink WS.
+[2022-11-11 13:50:19] [INFO] red.main: Please wait, cleaning up a bit more
+[2022-11-11 13:50:29] [INFO] red: Loading packages...
+[2022-11-11 13:50:30] [INFO] red: Loaded packages: audio, downloader, customcom, webthing, admin
+[2022-11-11 13:50:30] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-11 13:50:33] [INFO] red.Audio.manager: Internal Lavalink server started. PID: 3938
+[2022-11-11 13:50:41] [INFO] red.Audio.manager: Internal Lavalink server is ready to receive requests.
+[2022-11-11 13:50:41] [INFO] red.Audio.WS.LLNode: Lavalink WS connecting to ws://localhost:2333 with headers {'Authorization': 'youshallnotpass', 'User-Id': '765267492284661801', 'Num-Shards': '1', 'Client-Name': 'Red-Lavalink/0.9.4', 'Resume-Key': 'Red-Core-Audio-765267492284661801-Fomo'}
+[2022-11-11 13:51:28] [ERROR] red: Package loading failed
+Traceback (most recent call last):
+  File "/home/runner/redenv/lib/python3.8/site-packages/redbot/core/core_commands.py", line 172, in _load
+    await bot.load_extension(spec)
+  File "/home/runner/redenv/lib/python3.8/site-packages/redbot/core/bot.py", line 1554, in load_extension
+    lib = spec.loader.load_module()
+  File "<frozen importlib._bootstrap_external>", line 522, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 1022, in load_module
+  File "<frozen importlib._bootstrap_external>", line 847, in load_module
+  File "<frozen importlib._bootstrap>", line 265, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/__init__.py", line 15, in <module>
+    from jishaku.cog import *  # noqa: F401
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/cog.py", line 19, in <module>
+    from jishaku.features.management import ManagementFeature
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/features/management.py", line 25, in <module>
+    from jishaku.modules import ExtensionConverter
+  File "/home/runner/Reddiscordbot/botdata/cogs/CogManager/cogs/jishaku/modules.py", line 18, in <module>
+    from braceexpand import UnbalancedBracesError, braceexpand
+ModuleNotFoundError: No module named 'braceexpand'
+[2022-11-11 13:52:00] [INFO] red.main: Signals.SIGTERM received. Quitting...
+[2022-11-11 13:52:00] [INFO] red.main: Signals.SIGHUP received. Quitting...
+[2022-11-11 13:52:00] [INFO] red.main: Shutting down with exit code: ExitCodes.SHUTDOWN
+[2022-11-11 13:52:00] [INFO] red.Audio.manager: Shutting down internal Lavalink server
+[2022-11-11 13:52:00] [INFO] red.Audio.WS.LLNode: [NODE] | Listener closing: None
+[2022-11-11 13:52:00] [WARNING] red.Audio.WS.LLNode: [NODE] | <Node: state=DISCONNECTING, host=localhost, port=2333, password=***************, resume_key=Red-Core-Audio-765267492284661801-Fomo, shards=1, user=765267492284661801, stats=<NodeStats: uptime=66993, players=0, playing_players=0, memory_free=127271096, memory_used=32112456, cpu_cores=4, system_load=0.5369954907927764, lavalink_load=0.0031160074951482298>> - WS True SHUTDOWN True.
+[2022-11-11 13:52:00] [INFO] red.Audio.WS.LLNode: [NODE] | Shutting down Lavalink WS.
+[2022-11-11 13:52:00] [INFO] red.Audio.WS.LLNode: Shutdown Lavalink WS.
+[2022-11-11 13:52:00] [INFO] red.main: Please wait, cleaning up a bit more
+[2022-11-11 13:52:11] [INFO] red: Loading packages...
+[2022-11-11 13:52:12] [INFO] red: Loaded packages: audio, downloader, customcom, webthing, admin
+[2022-11-11 13:52:12] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-11 13:52:16] [INFO] red.Audio.manager: Internal Lavalink server started. PID: 4342
+[2022-11-11 13:52:24] [INFO] red.Audio.manager: Internal Lavalink server is ready to receive requests.
+[2022-11-11 13:52:24] [INFO] red.Audio.WS.LLNode: Lavalink WS connecting to ws://localhost:2333 with headers {'Authorization': 'youshallnotpass', 'User-Id': '765267492284661801', 'Num-Shards': '1', 'Client-Name': 'Red-Lavalink/0.9.4', 'Resume-Key': 'Red-Core-Audio-765267492284661801-Fomo'}
+[2022-11-11 16:24:32] [INFO] red.Audio.WS.RLL: Received voice disconnect from discord, removing player.
+[2022-11-11 16:49:21] [INFO] red.Audio.manager: Shutting down internal Lavalink server
+[2022-11-11 16:49:21] [INFO] red.Audio.WS.LLNode: [NODE] | Listener closing: None
+[2022-11-11 16:49:21] [WARNING] red.Audio.WS.LLNode: [NODE] | <Node: state=DISCONNECTING, host=localhost, port=2333, password=***************, resume_key=Red-Core-Audio-765267492284661801-Fomo, shards=1, user=765267492284661801, stats=<NodeStats: uptime=10568657, players=1, playing_players=0, memory_free=44560872, memory_used=99094040, cpu_cores=4, system_load=0.39068667900711435, lavalink_load=0.0028541666666666667>> - WS True SHUTDOWN True.
+[2022-11-11 16:49:21] [INFO] red.Audio.WS.LLNode: [NODE] | Shutting down Lavalink WS.
+[2022-11-11 16:49:21] [INFO] red.Audio.WS.LLNode: Shutdown Lavalink WS.
+[2022-11-11 16:49:22] [INFO] red.Audio.manager: Internal Lavalink server started. PID: 15275
+[2022-11-11 16:49:30] [INFO] red.Audio.manager: Internal Lavalink server is ready to receive requests.
+[2022-11-11 16:49:30] [INFO] red.Audio.WS.LLNode: Lavalink WS connecting to ws://localhost:2333 with headers {'Authorization': 'youshallnotpass', 'User-Id': '765267492284661801', 'Num-Shards': '1', 'Client-Name': 'Red-Lavalink/0.9.4', 'Resume-Key': 'Red-Core-Audio-765267492284661801-Fomo'}
+[2022-11-11 16:49:54] [INFO] red.mod: M4aXim(405356071989936129) hackbanned Unknown(669627189624307712), deleting 0 days worth of messages.
+[2022-11-11 17:45:43] [WARNING] py.warnings: <string>:2: RuntimeWarning: coroutine 'Context.send' was never awaited
+
+[2022-11-11 18:42:53] [INFO] red.Audio.WS.RLL: Received voice disconnect from discord, removing player.
+[2022-11-11 19:13:49] [INFO] red.Audio.WS.RLL: Received voice disconnect from discord, removing player.
+[2022-11-11 19:46:02] [WARNING] discord.http: We are being rate limited. Retrying in 0.15 seconds. Handled under the bucket "986989426737565738:None:/channels/{channel_id}/messages/{message_id}/reactions"
+[2022-11-11 20:21:27] [WARNING] py.warnings: <string>:2: RuntimeWarning: coroutine 'Context.send' was never awaited
+
+[2022-11-11 20:21:46] [WARNING] py.warnings: <string>:2: RuntimeWarning: coroutine 'Context.send' was never awaited
+
+[2022-11-11 20:22:46] [WARNING] py.warnings: <string>:2: RuntimeWarning: coroutine 'Context.send' was never awaited
+
+[2022-11-11 20:22:47] [WARNING] py.warnings: <string>:2: RuntimeWarning: coroutine 'Context.send' was never awaited
+
+[2022-11-11 21:40:57] [INFO] red.Audio.WS.RLL: Received voice disconnect from discord, removing player.
+[2022-11-12 05:11:16] [INFO] red: Loading packages...
+[2022-11-12 05:11:16] [INFO] red: Loaded packages: downloader, customcom, webthing, admin, wowtools, audio, mod
+[2022-11-12 05:11:17] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-12 05:11:20] [INFO] red.Audio.manager: Internal Lavalink server started. PID: 2887
+[2022-11-12 05:11:27] [INFO] red.Audio.manager: Internal Lavalink server is ready to receive requests.
+[2022-11-12 05:11:27] [INFO] red.Audio.WS.LLNode: Lavalink WS connecting to ws://localhost:2333 with headers {'Authorization': 'youshallnotpass', 'User-Id': '765267492284661801', 'Num-Shards': '1', 'Client-Name': 'Red-Lavalink/0.9.4', 'Resume-Key': 'Red-Core-Audio-765267492284661801-Fomo'}
+[2022-11-12 05:15:16] [INFO] red.vex.uptimeresponder: Web server for UptimeResponder pings has started on port 8710.
+[2022-11-12 05:15:40] [INFO] red.main: Signals.SIGTERM received. Quitting...
+[2022-11-12 05:15:40] [INFO] red.main: Shutting down with exit code: ExitCodes.SHUTDOWN
+[2022-11-12 05:15:40] [INFO] red.main: Signals.SIGHUP received. Quitting...
+[2022-11-12 05:15:40] [INFO] red.Audio.manager: Shutting down internal Lavalink server
+[2022-11-12 05:15:40] [INFO] red.vex.uptimeresponder: Web server for UptimeResponder pings has been stopped due to cog unload.
+[2022-11-12 05:15:40] [INFO] red.Audio.WS.LLNode: [NODE] | Listener closing: None
+[2022-11-12 05:15:40] [WARNING] red.Audio.WS.LLNode: [NODE] | <Node: state=DISCONNECTING, host=localhost, port=2333, password=***************, resume_key=Red-Core-Audio-765267492284661801-Fomo, shards=1, user=765267492284661801, stats=<NodeStats: uptime=246290, players=0, playing_players=0, memory_free=81350160, memory_used=41333232, cpu_cores=4, system_load=0.6174199459034988, lavalink_load=0.0016042201406713558>> - WS True SHUTDOWN True.
+[2022-11-12 05:15:40] [INFO] red.Audio.WS.LLNode: [NODE] | Shutting down Lavalink WS.
+[2022-11-12 05:15:40] [INFO] red.main: Please wait, cleaning up a bit more
+[2022-11-12 05:15:40] [INFO] red.Audio.WS.LLNode: Shutdown Lavalink WS.
+[2022-11-12 05:16:04] [INFO] red: Loading packages...
+[2022-11-12 05:16:06] [INFO] red.vex.uptimeresponder: Web server for UptimeResponder pings has started on port 8710.
+[2022-11-12 05:16:06] [INFO] red: Loaded packages: downloader, customcom, admin, wowtools, audio, mod, uptimeresponder
+[2022-11-12 05:16:06] [INFO] red: Connected to Discord. Getting ready...
+[2022-11-12 05:16:10] [INFO] red.Audio.manager: Internal Lavalink server started. PID: 3387
+[2022-11-12 05:16:17] [INFO] red.Audio.manager: Internal Lavalink server is ready to receive requests.
+[2022-11-12 05:16:17] [INFO] red.Audio.WS.LLNode: Lavalink WS connecting to ws://localhost:2333 with headers {'Authorization': 'youshallnotpass', 'User-Id': '765267492284661801', 'Num-Shards': '1', 'Client-Name': 'Red-Lavalink/0.9.4', 'Resume-Key': 'Red-Core-Audio-765267492284661801-Fomo'}

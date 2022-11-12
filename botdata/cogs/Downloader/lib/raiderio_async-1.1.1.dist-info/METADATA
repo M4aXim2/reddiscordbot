@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: raiderio-async
+Version: 1.1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: karlsbjorn
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: aiohttp
+Requires-Dist: aiolimiter
+
+UNKNOWN
+
+
